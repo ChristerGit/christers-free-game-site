@@ -15,8 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "gatsby": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.1",
+    "react-native-cli": "^2.0.1",
+    "react-native-web": "^0.19.6"
   }
 }
