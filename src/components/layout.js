@@ -30,7 +30,7 @@ export default function Layout() {
         left: 0,
         top: 0,
         }}><Topbar></Topbar></div>
-      <div style={{ // force layout to start in top left corner
+      <div style={{ // force layout to start in top right corner
         position: "absolute",
         right: 0,
         top: 0,
@@ -39,8 +39,19 @@ export default function Layout() {
         }}><StaticImage
         alt="Hanging leaves (topright)"
         src="../images/leaves.png"
-        objectFit="scale-down"
-      /></div>
+        objectFit="scale-down"/>
+      </div>
+      <div style={{ // site text on top
+        position: "absolute",
+        left: 0,
+        top: -40,
+        paddingLeft: 200,
+        fontSize: 36, 
+        color: "whitesmoke"
+        }}>
+          <h1>Christers Free Game Site</h1>
+        </div>
+
 
 </div>
   )

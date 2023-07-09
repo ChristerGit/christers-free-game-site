@@ -9,6 +9,16 @@ const IndexPage = () => {
     <main>
         <Layout>
         </Layout>
+        <div style={{ // local site header
+        position: "absolute",
+        left: 250,
+        top: 100,
+        paddingLeft: 0,
+        fontSize: 24, 
+        color: "gray"
+        }}>
+          <h2>Welcome to Christers Free Game Site. Below this text you can find the top rated games on the site.</h2>
+        </div>
     </main>
   )
 }
