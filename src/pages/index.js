@@ -11,13 +11,15 @@ const IndexPage = () => {
         </Layout>
         <div style={{ // local site header
         position: "absolute",
-        left: 250,
-        top: 100,
+        left: "15vw",
+        top: "25vh",
         paddingLeft: 0,
-        fontSize: 24, 
+        fontSize: 16, 
         color: "gray"
         }}>
-          <h2>Welcome to Christers Free Game Site. Below this text you can find the top rated games on the site.</h2>
+          <h2>You have trekked through the jungle and come upon... Christers Free Game Site! Below this text you will find
+            the top rated games on the site along with a random selection 
+          </h2>
         </div>
     </main>
   )

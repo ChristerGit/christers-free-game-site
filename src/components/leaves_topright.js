@@ -1,7 +1,7 @@
 import React from "react"
 
 const leaves_image_topright = {
-    imageUrl: '../images/leaves.png',
+    imageUrl: '../images/leaves_hiq.png',
     imageSize: 90,
   };
   
