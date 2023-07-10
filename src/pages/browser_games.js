@@ -15,7 +15,7 @@ const IndexPage = () => {
         left: "15vw",
         top: "25vh",
         }}>
-          <Game_box linkTo="../../public/static/game_test_1/index.html" target="_blank"></Game_box>
+          <Game_box linkTo="/static/game_test_1/index.html" target="_blank"></Game_box>
         </div>
     </main>
   )
